@@ -37,7 +37,7 @@ public class MiVista extends View {
     }
 
     void fill(){
-        setFocusable(true);
+        setFocusable(true); //podemos seleccionarlo
         setFocusableInTouchMode(true);
         setOnTouchListener(new OnTouchListener() {
             @Override
